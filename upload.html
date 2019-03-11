@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Website</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="uploadDesign.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">GovnoPCB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="zdr.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="upload.html">Upload</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="orcad.html">OrCAD</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="kikad.html">KiCAD</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="eagle.html">Eagle</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="protel.html">Protel</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="easyeda.html">EasyEda</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    
+        <div id="uploadForm">
+            <form>
+                <div class="form-group1 form-control-lg">
+                    <label for="Textarea1">Title</label>
+                    <textarea class="form-control" id="Textarea1" rows="1"></textarea>
+                </div>
+
+                <div class="form-group1 form-control-lg">
+                    <label for="Textarea1">Description</label>
+                    <textarea class="form-control" id="Textarea2" rows="5"></textarea>
+                </div>
+                
+                <div class="form-group2 form-control-lg">
+                    <label>Upload Your Screenshot</label>
+                    <input type="file" accept="image/*" class="form-control-file" id="FormControlFile1">
+                </div>
+            </form>
+        </div>
+
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action">
+                <div class="media">
+                    <img src="./Images/cog.png" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <h5 class="mt-0">Upload Rules</h5>
+                    </div>
+                </div>    
+            </a>
+
+
+            <a class="list-group-item list-group-item-action">Specify the CAD system</a>
+            <a class="list-group-item list-group-item-action">Be kind</a>
+            <a class="list-group-item list-group-item-action">Cyka Blyat</a>
+            <a class="list-group-item list-group-item-action">Upload you worst PCBs!</a>
+        </div>
+    </body>
+</html>
