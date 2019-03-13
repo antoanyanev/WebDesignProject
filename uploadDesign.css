@@ -2,6 +2,14 @@ body {
     background-image: url("./Images/bg.png")
 }
 
+.nav-item {
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
 textarea {
     background-color: #555555
 }
