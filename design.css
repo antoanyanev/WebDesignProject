@@ -1,25 +1,35 @@
 body {
-    background-image: url("./Images/bg.png")
+    background-image: url("./Images/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 20px;
 }
 
 .card {
-    width: 1700px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 .card-img-top  {
-    width: 64px;
+    
 }
 
 .card-text {
     float: left;
     padding-top: auto;
     padding-bottom: auto;
-    padding-right: 400px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    margin-right: 50px;
 }
 
 .vote {
