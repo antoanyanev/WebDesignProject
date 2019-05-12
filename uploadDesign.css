@@ -35,14 +35,14 @@ input {
 
 #uploadForm {
     float: left;
-    margin-left: 200px;
+    margin-left: 600px;
     margin-top: 80px;
 }
 
 .list-group {
     float: right;
     margin-top: 145px;
-    margin-right: 400px;
+    margin-right: 600px;
     max-width: 300px;
 }
 
