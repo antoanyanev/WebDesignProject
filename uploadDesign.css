@@ -2,6 +2,10 @@ body {
     background-image: url("./Images/bg.png")
 }
 
+h5 {
+    padding-top: 20px;
+}
+
 .nav-item {
     font-size: 20px;
 }
@@ -33,12 +37,6 @@ input {
     resize: none;
 }
 
-#uploadForm {
-    float: left;
-    margin-left: 25%;
-    margin-top: 80px;
-}
-
 .list-group {
     float: right;
     margin-top: 145px;
@@ -46,6 +44,18 @@ input {
     max-width: 300px;
 }
 
-h5 {
-    padding-top: 20px;
+#uploadForm {
+    float: left;
+    margin-left: 25%;
+    margin-top: 80px;
+}
+
+#icon {
+    width: 64px;
+    height: 64px;
+}
+
+#infopic {
+    width: 64px;
+    height: 64px;
 }

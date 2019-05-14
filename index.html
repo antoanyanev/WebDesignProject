@@ -6,13 +6,14 @@
         <title>GovnoPCB</title>
         <link rel="stylesheet" href="design.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
 
         <!-- Nav Bar -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img src="./Images/icon.png" id="navlogo" width="64px" height="64px">
+            <img src="./Images/icon.png" id="navlogo" alt="navlogo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,28 +47,21 @@
 
         <!-- Page -->
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="./Images/carousel.jpg" class="d-block">
-              </div>
-              <div class="carousel-item">
-                <img src="./Images/carousel2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./Images/carousel3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
+        <div id="page">
+            <img src="./Images/icon.png" id="pic" alt="picture">
+        </div>
+
+        <p id="text">
+            This is page is intended for sharing bad PCB designs.
+        </p>
 
         <!-- Info -->
         <div id="info">
-            <li class="infoitem"><a href="https://instagram.com"><img src="./Images/ig" width="64px" height="64px"></a></li>
-            <li class="infoitem"><a href="https://facebook.com"><img src="./Images/fb.png" width="44px" height="44px"></a></li>
-            <li class="infoitem"><a href="https://reddit.com"><img src="./Images/reddit.png" width="50px" height="50px"></a></li>
+            <ul>
+                <li class="infoitem"><a href="https://instagram.com"><img src="./Images/ig" id="instagram" alt="instagram"></a></li>
+                <li class="infoitem"><a href="https://facebook.com"><img src="./Images/fb.png" id="facebook" alt="facebook"></a></li>
+                <li class="infoitem"><a href="https://reddit.com"><img src="./Images/reddit.png" id="reddit" alt="reddit"></a></li>
+            </ul>
         </div>
-
-        <!-- <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/ew1axNSm_tE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     </body>
 </html>
